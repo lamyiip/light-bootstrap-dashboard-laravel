@@ -1,8 +1,8 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
-    "name": "talentflow/recruitment-crm",
+    "name": "snaprecruit/recruitment-crm",
     "type": "project",
-    "description": "TalentFlow - AI-Powered Recruitment CRM using VILT Stack (Vue, Inertia, Laravel, Tailwind)",
+    "description": "SnapRecruit - AI-Powered Recruitment CRM using VILT Stack (Vue, Inertia, Laravel, Tailwind)",
     "keywords": ["laravel", "vue", "inertia", "recruitment", "ats", "crm", "ai"],
     "license": "MIT",
     "require": {

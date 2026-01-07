@@ -1,6 +1,6 @@
-# TalentFlow - AI-Powered Recruitment CRM
+# SnapRecruit - AI-Powered Recruitment CRM
 
-**TalentFlow** is a modern Applicant Tracking System (ATS) designed to streamline the hiring process. It demonstrates a robust, scalable architecture using the **VILT Stack** (Vue, Inertia, Laravel, Tailwind), featuring AI-driven resume analysis, role-based access control, and asynchronous background processing.
+**SnapRecruit** is a modern Applicant Tracking System (ATS) designed to streamline the hiring process. It demonstrates a robust, scalable architecture using the **VILT Stack** (Vue, Inertia, Laravel, Tailwind), featuring AI-driven resume analysis, role-based access control, and asynchronous background processing.
 
 This project serves as a portfolio showcase for **System Architecture**, **Clean Code principles**, and **AI Integration** within a PHP ecosystem.
 
@@ -97,8 +97,8 @@ Before you begin, make sure you have installed:
 Open your terminal and run:
 
 ```bash
-git clone https://github.com/yourusername/talentflow.git
-cd talentflow
+git clone https://github.com/yourusername/snaprecruit.git
+cd snaprecruit
 ```
 
 #### 2. Copy Environment File
@@ -183,8 +183,8 @@ You'll see output showing tables being created:
 ```
 
 This creates:
-- Admin user: `admin@talentflow.com` / `password`
-- Recruiter user: `recruiter@talentflow.com` / `password`
+- Admin user: `admin@snaprecruit.com` / `password`
+- Recruiter user: `recruiter@snaprecruit.com` / `password`
 - Sample job postings and candidates
 
 #### 7. Install Frontend Dependencies
@@ -207,7 +207,7 @@ Keep this terminal running! It will hot-reload your changes.
 
 🎉 **You're ready!** Open [http://localhost](http://localhost) in your browser.
 
-You should see the TalentFlow welcome page.
+You should see the SnapRecruit welcome page.
 
 ---
 
@@ -294,7 +294,7 @@ To enable AI-powered resume analysis:
 **"sail" command not found?**
 ```bash
 # Make sure you're in the project directory
-cd talentflow
+cd snaprecruit
 
 # If still not working, use the full path:
 ./vendor/bin/sail up
@@ -324,7 +324,7 @@ Once running, you can access:
 | Service | URL | Notes |
 |---------|-----|-------|
 | **Application** | http://localhost | Main application |
-| **MySQL** | localhost:3306 | DB: `talentflow`, User: `sail`, Pass: `password` |
+| **MySQL** | localhost:3306 | DB: `snaprecruit`, User: `sail`, Pass: `password` |
 | **Redis** | localhost:6379 | No password required |
 | **Mailpit** | http://localhost:8025 | View test emails |
 
@@ -354,12 +354,12 @@ php artisan key:generate
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=talentflow
+DB_DATABASE=snaprecruit
 DB_USERNAME=root
 DB_PASSWORD=your_mysql_password
 
 # 4. Create database
-mysql -u root -p -e "CREATE DATABASE talentflow"
+mysql -u root -p -e "CREATE DATABASE snaprecruit"
 
 # 5. Run migrations
 php artisan migrate --seed
@@ -455,8 +455,8 @@ database/
 
 | Email | Password | Role |
 |-------|----------|------|
-| admin@talentflow.com | password | Admin |
-| recruiter@talentflow.com | password | Recruiter |
+| admin@snaprecruit.com | password | Admin |
+| recruiter@snaprecruit.com | password | Recruiter |
 
 ### Permissions
 
@@ -573,9 +573,8 @@ This project is open-sourced software licensed under the [MIT license](https://o
 **Created by Mandy Lam**
 *Full Stack Engineer | UX/UI Designer*
 
-- Portfolio: [Your Portfolio URL]
-- LinkedIn: [Your LinkedIn URL]
-- GitHub: [Your GitHub URL]
+- LinkedIn: https://www.linkedin.com/in/lamyiip/
+- GitHub: https://github.com/lamyiip
 
 ---
 
